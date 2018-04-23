@@ -5,7 +5,9 @@ env:
   - VERSION=2.6
 
 install:
-  - git clone https://github.com/docker-library/official-images.git@b65b73e ~/official-images
+  - git clone https://github.com/docker-library/official-images.git ~/official-images
+  - cd ~/official-images
+  - git reset --hard b65b73e1744c68139339593982460db77b1675b6
 
 before_script:
   - env | sort
