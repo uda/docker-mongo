@@ -7,4 +7,4 @@ This is the Git repo of the Docker image for [mongo 2.6](https://hub.docker.com/
 ---
 
 -	[Travis CI:  
-	![build status badge](https://img.shields.io/travis/uda/docker-mongo/master.svg)](https://travis-ci.org/docker-library/mongo/branches)
+	![build status badge](https://img.shields.io/travis/uda/docker-mongo/master.svg)](https://travis-ci.org/uda/docker-mongo/branches)
