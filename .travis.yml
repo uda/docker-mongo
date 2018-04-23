@@ -6,8 +6,7 @@ env:
 
 install:
   - git clone https://github.com/docker-library/official-images.git ~/official-images
-  - cd ~/official-images
-  - git reset --hard b65b73e1744c68139339593982460db77b1675b6
+  - (cd ~/official-images && git reset --hard b65b73e1744c68139339593982460db77b1675b6)
 
 before_script:
   - env | sort
